@@ -1,10 +1,10 @@
 function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   }
-
+console.log("muie");
 const bstart = document.querySelector('button[data-start]');
 const bstop = document.querySelector('button[data-stop]');
-
+console.log(bstart);
 let timerId = null;
 
 bstart.addEventListener('click', () => {
