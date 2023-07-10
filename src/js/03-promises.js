@@ -1,4 +1,4 @@
-import Notiflix from 'Notiflix';
+import Notiflix from 'notiflix';
 
 function createPromise(position, delay) {
   const promise = new Promise((resolve, reject) => {
